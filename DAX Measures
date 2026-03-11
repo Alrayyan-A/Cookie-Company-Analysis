@@ -1,0 +1,10 @@
+Calculated columns: 
+Differentiate between orders with chocolate chip cookies:
+Code: Choc chip or no = if('Orders'[Product] = "Chocolate Chip", "Chocolate Chip", "Not Chocolate Chip")
+
+What is the percent difference in revenue of chocolate chip cookies vs other products in 2020?
+•	Avg rev choc chip = CALCULATE(AVERAGE(Orders[Revenue]), Orders[Choc chip or no] = "Chocolate Chip")
+•	Avg rev non-choc chip = CALCULATE(AVERAGE(Orders[Revenue]), Orders[Choc chip or no] = "Not Chocolate Chip")
+Code: % diff rev CC to NCC = ([Avg rev choc chip] - [Avg rev non-choc chip]) / [Avg rev non-choc chip]
+
+Used: IF Statement, CALCULATE, AVERAGE
