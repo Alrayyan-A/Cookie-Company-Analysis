@@ -1,0 +1,48 @@
+1) Overview:
+The goal of this project is to determine the customers and products that generate the most revenue and repeat purchases, in order to optimize the sales strategy.
+
+2) Data Description:
+- Source: How to use Power BI DAX – Tutorial by Kevin Stratvert on YouTube (Excel files in drive)
+- Table 1 – Cookie Types: 
+* Number of Records: 7
+- Fields (used fields): 
+- Cookie type
+- Units sold
+- Revenue per cookie 
+- Cost per cookie
+
+* Table 2 – Cookie Types: 
+- Number of Records: 5
+- Fields (used fields): 
+- Customer ID
+- Name
+
+* Table 3 – Cookie Types: 
+- Number of Records: 700
+- Fields (used fields): 
+- Customer ID
+- Order ID
+- Product 
+- Units sold 
+- Date
+- Revenue 
+- Cost 
+
+3) Tools Used: 
+- Microsoft Excel: Data checking and validation 
+- MySQL: Exploratory Data Analysis (EDA), Querying
+- Microsoft Power BI: trends identification, visualizations, DAX measures
+
+4) Data Cleaning:
+Data was checked for missing values and validated for incorrect/misspelled values.
+
+5) Analysis:
+•	Tables of name, order count, units sold and revenue of both cookie products and customers for 2020.
+•	Line and clustered column chart showing the monthly revenue and count of orders for oatmeal raisin cookies for ACME Bites in 2020 (plus chocolate chip & cookies in a slicer)
+
+6) Key Insights:
+•	ACME Bites is the top customer, followed by Wholesome Foods
+•	Chocolate Chip cookies generated the highest revenue, and is ordered year-round
+•	2nd best-selling products are Oatmeal Raisin and white Chocolate Macadamia Nut Cookies for ACME Bites and Wholesome Foods, respectively.
+•	Top-products’ sales peak mid-year for ACME bites, and in December for Chocolate chip Cookies & mid-year for White Chocolate Macadamia Nut Cookies for Wholesome Foods
+
