@@ -1,0 +1,20 @@
+•	What is the total revenue per customer?
+Code: SELECT c.CustomerID, Name, sum(Revenue) as Revenue
+FROM customers as c
+JOIN orders as o ON c.CustomerID = o.CustomerID
+group by c.CustomerID, Name
+order by sum(Revenue) desc
+
+•	What is the total revenue per product?
+Code: SELECT Product, SUM(UnitsSold) AS "Units Sold", SUM(Revenue) AS "Revenue"
+FROM orders
+GROUP BY Product
+ORDER BY SUM(Revenue) DESC
+
+•	what is the monthly orders per product?
+Code: SELECT Product, MONTH(Date) as Month, (COUNT(OrderID)) AS Orders
+FROM orders
+GROUP BY Product, Date
+ORDER BY MONTH(Date) ASC
+
+Used: SELECT, FROM, JOIN, GROUP BY, ORDER BY, SUM, COUNT, string function time MONTH. 
