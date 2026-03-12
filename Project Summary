@@ -41,8 +41,10 @@ Data was checked for missing values and validated for incorrect/misspelled value
 •	Line and clustered column chart showing the monthly revenue and count of orders for oatmeal raisin cookies for ACME Bites in 2020 (plus chocolate chip & cookies in a slicer)
 
 6) Key Insights:
-•	ACME Bites is the top customer, followed by Wholesome Foods
-•	Chocolate Chip cookies generated the highest revenue, and is ordered year-round
-•	2nd best-selling products are Oatmeal Raisin and white Chocolate Macadamia Nut Cookies for ACME Bites and Wholesome Foods, respectively.
-•	Top-products’ sales peak mid-year for ACME bites, and in December for Chocolate chip Cookies & mid-year for White Chocolate Macadamia Nut Cookies for Wholesome Foods
+•	ACME Bites generates the 83.71% more revenue and makes 69.11% more orders, followed by Wholesome Foods. 
+•	Chocolate Chip is the leading product generating 37.41% higher revenue.
+•	Oatmeal Raisin is second best for ACME Bites.
+•	White Chocolate Macadamia Nut was second for Wholesome Foods, 26.7% higher revenue.
+•	ACME Bites sales for both products peak mid-year, with Chocolate Chip having 52% higher monthly orders. 
+•	Chocolate Chip peaks in December for Wholesome Foods, while White Chocolate Macadamia Nut peaks mid-year but is less frequently ordered.
 
